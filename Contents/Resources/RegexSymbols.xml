@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbols>
+    <symbol id="Resource" image="SymbolM" indentation="0">
+        <regex>(resource "[^\n\r]*")</regex>
+        <postprocess>
+            <find>resource </find>
+            <replace></replace>
+            <find>"</find>
+            <replace></replace>
+        </postprocess>
+    </symbol>
+</symbols>
