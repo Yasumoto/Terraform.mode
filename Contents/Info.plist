@@ -16,5 +16,9 @@
 	<string>BNDL</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>CodaAuthorString</key>
+	<string>Joe Smith</string>
+	<key>CodaDescriptionString</key>
+	<string>Terraform highlighting https://github.com/Yasumoto/Terraform.mode</string>
 </dict>
 </plist>
