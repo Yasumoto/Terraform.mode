@@ -81,7 +81,13 @@
                     no      Don't add to autocomplete dictionary
             -->
 
-            <keywords id="Boolean Values" color="#FFDF00" font-weight="bold" font-style="italic" scope="keyword.boolean.terraform">
+            <keywords id="Keywords" color="#6C0540" scope="keyword.function.terraform">
+                <string>resource</string>
+                <string>provider</string>
+                <string>data</string>
+                <string>module</string>
+            </keywords>
+            <keywords id="Boolean Values" color="#565698" font-weight="bold" font-style="italic" scope="keyword.boolean.terraform">
                 <string>true</string>
                 <string>false</string>
             </keywords>
@@ -90,20 +96,14 @@
                 <begin><regex>#</regex></begin>
                 <end><regex>[\n\r]</regex></end>
             </state>
-            <state id="String" color="#760f15" scope="string.double.terraform" type="string">
+            <state id="String" color="#0011ff" scope="string.double.terraform" type="string">
                 <begin><regex>"</regex></begin>
                 <end><regex>"</regex></end>
             </state>
-            <state id="Resource Values" color="#00FF00" font-weight="bold" font-style="italic" scope="keyword.type.terraform">
-                <begin><regex>^\s+[a-z][a-z_]*</regex></begin>
+            <state id="Resource Values" color="#FF4500" font-weight="bold" font-style="italic" scope="keyword.type.terraform">
+                <begin><regex>^ +[a-z][a-z_]*</regex></begin>
                 <end><regex>\s</regex></end>
             </state>
-            <keywords id="Keywords" color="#6C0540" scope="keyword.function.terraform">
-                <string>resource</string>
-                <string>provider</string>
-                <string>data</string>
-                <string>module</string>
-            </keywords>
         </default>
     </states>
 </syntax>
